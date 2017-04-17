@@ -1,1 +1,40 @@
-{     "devDependencies": {         "ember-component-css": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-ember-component-css",     "homepage": "https://github.com/npmtest/node-npmtest-ember-component-css",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-ember-component-css.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [ember-component-css (v0.3.2)](https://github.com/ebryn/ember-component-css#readme) [![npm package](https://img.shields.io/npm/v/npmtest-ember-component-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-component-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-component-css.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-component-css)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "ember-component-css": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-ember-component-css",
+    "keywords": [
+        "coverage",
+        "test",
+        "ember-component-css"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_ember_component_css.js",
+    "name": "npmtest-ember-component-css",
+    "nameAlias": "npmtest_ember_component_css",
+    "nameOriginal": "npmtest-ember-component-css",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-ember-component-css.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
