@@ -1,4 +1,7 @@
-# test coverage for  [ember-component-css (v0.3.2)](https://github.com/ebryn/ember-component-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-component-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-component-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-component-css.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-component-css)
+# npmtest-ember-component-css
+
+#### basic test coverage for  [ember-component-css (v0.3.3)](https://github.com/ebryn/ember-component-css#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-component-css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-component-css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-component-css.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-component-css)
+
 #### An Ember CLI addon which allows you to specify styles for individual components
 
 [![NPM](https://nodei.co/npm/ember-component-css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-component-css)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-component-css/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-component-css/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-component-css/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-component-css/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-component-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-component-css/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-component-css/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-component-css/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-component-css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-component-css/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-component-css/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-component-css/build/coverage.html/index.html)
 
@@ -68,7 +71,7 @@
         "ember-cli-qunit": "^3.1.0",
         "ember-cli-shims": "^1.0.2",
         "ember-cli-sri": "^2.1.0",
-        "ember-cli-styles-preprocessor": "^0.0.7",
+        "ember-cli-styles-preprocessor": "^0.0.8",
         "ember-cli-uglify": "^1.2.0",
         "ember-disable-prototype-extensions": "^1.1.0",
         "ember-export-application-global": "^1.0.5",
@@ -85,8 +88,8 @@
         "test": "tests"
     },
     "dist": {
-        "shasum": "50d3c17e0b057a3cb5bf728540613f0038bcf653",
-        "tarball": "https://registry.npmjs.org/ember-component-css/-/ember-component-css-0.3.2.tgz"
+        "shasum": "505cdfce8b05ed97ed55e714c26e914fdfb745e5",
+        "tarball": "https://registry.npmjs.org/ember-component-css/-/ember-component-css-0.3.3.tgz"
     },
     "ember-addon": {
         "configPath": "tests/dummy/config",
@@ -101,7 +104,7 @@
     "engines": {
         "node": ">= 4"
     },
-    "gitHead": "61583c9876af98b84f680eaef02dfbe9aaf21a0f",
+    "gitHead": "9b4800d806d631eb8aa366e890f7bb9d6cc690b4",
     "homepage": "https://github.com/ebryn/ember-component-css#readme",
     "keywords": [
         "ember-addon"
@@ -127,7 +130,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "0.3.2"
+    "version": "0.3.3",
+    "bin": {}
 }
 ```
 
