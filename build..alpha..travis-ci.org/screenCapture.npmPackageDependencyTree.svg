@@ -4,7 +4,7 @@
 <tspan x="10" y="26">33 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
-<tspan x="10" y="74">└─┬ ember-component-css@0.3.2 </tspan>
+<tspan x="10" y="74">└─┬ ember-component-css@0.3.3 </tspan>
 <tspan x="10" y="90">  ├─┬ broccoli-concat@3.2.2 </tspan>
 <tspan x="10" y="106">  │ ├─┬ broccoli-kitchen-sink-helpers@0.3.1 </tspan>
 <tspan x="10" y="122">  │ │ └─┬ glob@5.0.15 </tspan>
@@ -44,11 +44,11 @@
 <tspan x="10" y="666">  │ ├── lodash.merge@4.6.0 </tspan>
 <tspan x="10" y="682">  │ ├── lodash.omit@4.5.0 </tspan>
 <tspan x="10" y="698">  │ └── lodash.uniq@4.5.0 </tspan>
-<tspan x="10" y="714">  ├─┬ broccoli-funnel@1.1.0 </tspan>
+<tspan x="10" y="714">  ├─┬ broccoli-funnel@1.2.0 </tspan>
 <tspan x="10" y="730">  │ ├── array-equal@1.0.0 </tspan>
 <tspan x="10" y="746">  │ ├── blank-object@1.0.2 </tspan>
-<tspan x="10" y="762">  │ ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="778">  │ │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="762">  │ ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="778">  │ │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="794">  │ ├── exists-sync@0.0.4 </tspan>
 <tspan x="10" y="810">  │ ├── fast-ordered-set@1.0.3 </tspan>
 <tspan x="10" y="826">  │ ├─┬ heimdalljs@0.2.4 </tspan>
@@ -74,7 +74,7 @@
 <tspan x="10" y="1146">  │ │ └─┬ istextorbinary@2.1.0 </tspan>
 <tspan x="10" y="1162">  │ │   ├── binaryextensions@2.0.0 </tspan>
 <tspan x="10" y="1178">  │ │   ├── editions@1.3.3 </tspan>
-<tspan x="10" y="1194">  │ │   └── textextensions@2.0.1 </tspan>
+<tspan x="10" y="1194">  │ │   └── textextensions@2.1.0 </tspan>
 <tspan x="10" y="1210">  │ ├── hash-for-dep@1.1.2 </tspan>
 <tspan x="10" y="1226">  │ ├── heimdalljs-logger@0.1.9 </tspan>
 <tspan x="10" y="1242">  │ ├─┬ md5-hex@1.3.0 </tspan>
@@ -135,7 +135,7 @@
 <tspan x="10" y="2122">  │ │ │ │ │ ├─┬ detective@4.5.0 </tspan>
 <tspan x="10" y="2138">  │ │ │ │ │ │ ├── acorn@4.0.11 </tspan>
 <tspan x="10" y="2154">  │ │ │ │ │ │ └── defined@1.0.0 </tspan>
-<tspan x="10" y="2170">  │ │ │ │ │ ├── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="2170">  │ │ │ │ │ ├── iconv-lite@0.4.16 </tspan>
 <tspan x="10" y="2186">  │ │ │ │ │ ├── q@1.5.0 </tspan>
 <tspan x="10" y="2202">  │ │ │ │ │ └─┬ recast@0.11.23 </tspan>
 <tspan x="10" y="2218">  │ │ │ │ │   ├── ast-types@0.9.6 </tspan>
@@ -193,11 +193,11 @@
 <tspan x="10" y="3050">  │ │ └─┬ json-stable-stringify@1.0.1 </tspan>
 <tspan x="10" y="3066">  │ │   └── jsonify@0.0.0 </tspan>
 <tspan x="10" y="3082">  │ ├── clone@2.1.1 </tspan>
-<tspan x="10" y="3098">  │ ├─┬ ember-cli-version-checker@1.2.0 </tspan>
+<tspan x="10" y="3098">  │ ├─┬ ember-cli-version-checker@1.3.1 </tspan>
 <tspan x="10" y="3114">  │ │ └── semver@5.3.0 </tspan>
-<tspan x="10" y="3130">  │ └─┬ resolve@1.3.2 </tspan>
+<tspan x="10" y="3130">  │ └─┬ resolve@1.3.3 </tspan>
 <tspan x="10" y="3146">  │   └── path-parse@1.0.5 </tspan>
-<tspan x="10" y="3162">  ├─┬ ember-getowner-polyfill@1.2.2 </tspan>
+<tspan x="10" y="3162">  ├─┬ ember-getowner-polyfill@1.2.3 </tspan>
 <tspan x="10" y="3178">  │ └── ember-factory-for-polyfill@1.1.1 </tspan>
 <tspan x="10" y="3194">  ├─┬ fs-tree-diff@0.5.6 </tspan>
 <tspan x="10" y="3210">  │ └── object-assign@4.1.1 </tspan>
